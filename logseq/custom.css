@@ -19,7 +19,7 @@
 
 /* optionnal : add captions around the diagram */
 div[data-refs-self*="eisenhower-matrix"] > .block-children:before {
-	content: "↑ IMPORTANT";
+	content: "↑ 重要";
 	position: absolute;
 	color: var(--eisen-outercaption-color);
 	font-size: 12px;
@@ -27,7 +27,7 @@ div[data-refs-self*="eisenhower-matrix"] > .block-children:before {
 	top: 0.5rem;
 }  
 div[data-refs-self*="eisenhower-matrix"] > .block-children:after {
-	content: "URGENT ←";
+	content: "紧急 ←";
 	position: absolute;
 	color: var(--eisen-outercaption-color);
 	font-size: 12px;
@@ -35,7 +35,7 @@ div[data-refs-self*="eisenhower-matrix"] > .block-children:after {
 	top: 50%;
 }  
 div[data-refs-self*="eisenhower-matrix"]:before {
-	content: "↓ NOT IMPORTANT";
+	content: "↓ 不重要";
 	position: absolute;
 	color: var(--eisen-outercaption-color);
 	font-size: 12px;
@@ -43,7 +43,7 @@ div[data-refs-self*="eisenhower-matrix"]:before {
 	bottom: -0.5rem;
 }  
 div[data-refs-self*="eisenhower-matrix"]:after {
-	content: "→ NOT URGENT";
+	content: "→ 不紧急";
 	position: absolute;
 	color: var(--eisen-outercaption-color);
 	font-size: 12px;
