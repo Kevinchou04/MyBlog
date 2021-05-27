@@ -5,3 +5,6 @@
 #### 3. You can also put many different things, depending on your personal workflow.
 ### [[2021]]
 ## [[May 27th, 2021]]
+:PROPERTIES:
+:heading: true
+:END:
